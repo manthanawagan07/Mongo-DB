@@ -1,0 +1,30 @@
+show databases;
+
+create database VITCAMPUS;
+
+drop database VITCAMPUS;
+
+use VITCAMPUS;
+create database VITCAMPUS1
+
+create table CSE(
+sid int8,
+sname varchar(50),
+smarks int1
+);
+create table Mech(
+sid int8,
+sname varchar(50),
+smarks int1
+);
+create table EEE(
+sid int8,
+sname varchar(50),
+smarks int1
+);
+
+show tables from vitcampus;
+
+select * from cse;
+
+insert into cse values(101, 'manthan',80);
